@@ -18,7 +18,7 @@ The technologies used on this project:
 
 #### Development
 
-To run the application on port 3333 you can simply run the following code, and then access http://localhost:3333/[http://localhost:3333/]:
+To run the application on port 3333 you can simply run the following code, and then access http://localhost:3333/:
 
 ```sh
 $ npm run dev
