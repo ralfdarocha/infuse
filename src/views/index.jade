@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= "Infuse - Tech Interview"
+    link(rel="shortcut icon" href="images/favicon.png")
+    link(rel='stylesheet', href='styles/styles.css')
+    script(src='javascript/app.js')
+  body
+    include header
+    block content
+      main
+        form(action='/data',method='post',id='form')
+          div(data-role='fieldcontain', class='form-content')
+            label(for='value', class='common-title') Enter a text in the field below to reverse it: 
+            input(id='value',type='text',value='',placeholder='Please, enter your text',name='value')
+            button(type='submit', id="submit-btn")
+              span= "Send"
+            div(id='response')
+    include footer
